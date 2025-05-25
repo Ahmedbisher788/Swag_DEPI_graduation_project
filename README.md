@@ -21,6 +21,12 @@ To verify the functionality of the SauceDemo e-commerce website by writing relia
 - Git & GitHub
 
 ---
+📋 Test Case Management (Jira)
+All detailed test cases are documented using AIO Test Management in Jira.
+
+🔗 Click here to view the test cases in Jira
+
+---
 
 ## 📄 Tested Pages and Features
 
@@ -35,3 +41,18 @@ To verify the functionality of the SauceDemo e-commerce website by writing relia
 | **Sidebar**              | Navigation links (About, Logout, etc.)          |
 | **Footer**               | Footer visibility and social links              |
 | **E2E Scenarios**        | Full purchase flow from login to order success  |
+---
+src
+├── test
+│   └── java
+│       └── FunctionalityTesting
+│           ├── CartPageTests.java
+│           ├── CheckoutPageTests.java
+│           ├── CheckoutOverviewPageTests.java
+│           ├── E2ETests.java
+│           ├── FooterTests.java
+│           ├── HomePageTests.java
+│           ├── LoginPageTests.java
+│           ├── ProductDetailsPageTests.java
+│           └── SidebarTests.java
+---
